@@ -1,0 +1,25 @@
+{
+  "name": "angularjs-pokemon-search",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A search tool to look up pokemon and information about them.",
+  "repository": "https://github.com/technetos/angularjs-pokemon-search",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.9.0",
+    "bower": "^1.7.9",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^4.1.0",
+    "gulp-order": "^1.1.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sourcemaps": "^1.6.0"
+  },
+  "scripts": {
+    "start": "gulp",
+    "prestart": "npm install",
+    "postinstall": "bower install",
+    "preupdate-webdriver": "npm install"
+  }
+}

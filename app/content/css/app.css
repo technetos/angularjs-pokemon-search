@@ -1,0 +1,9 @@
+body{
+  font-family:gbfont;
+  position:relative;
+}
+
+@font-face{
+  font-family:gbfont;
+  src:url(fonts/PressStart2P.ttf) format('truetype');
+}
